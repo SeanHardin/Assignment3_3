@@ -89,7 +89,7 @@ void LinkedStack<T>::destroy(){
 
 template <typename T>//destructor
 LinkedStack<T>::~LinkedStack(){
-	destroy();
+	this->destroy();
 }
 
 template <typename T>//convert stack into stream
